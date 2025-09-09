@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Interactive Webpage</h1>
+    <button id="toggleTheme">Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Section 1: Custom Form -->
+    <section>
+      <h2>Register</h2>
+      <form id="registerForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter your email"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter a password"><br>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+
+    <!-- Section 2: Character Counter -->
+    <section>
+      <h2>Feedback</h2>
+      <textarea id="feedback" rows="4" cols="50" placeholder="Type your feedback..."></textarea>
+      <p id="charCount">Characters: 0</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
